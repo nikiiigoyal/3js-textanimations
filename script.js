@@ -4,7 +4,7 @@ import * as THREE from "three";
 let canvas = document.getElementById("#threejs")
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(30,window.innerWidth/window.innerHeight,1,1000);
-camera.position.set( 0, 400, 700 );
+camera.position.set( 0, 401, 700 );
 
 console.log("Camera Position (x, y, z):", camera.position.x, camera.position.y, camera.position.z);
 
